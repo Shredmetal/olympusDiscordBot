@@ -4,5 +4,6 @@ ThisBuild / scalaVersion := "3.3.0"
 
 lazy val root = (project in file("."))
   .settings(
-    name := "olympusDiscordBot"
+    name := "olympusDiscordBot",
+    libraryDependencies += "net.katsstuff" %% "ackcord" % "0.18.1"
   )
